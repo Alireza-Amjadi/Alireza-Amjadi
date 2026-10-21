@@ -2,7 +2,7 @@
 Animated profile banner for github.com/Alireza-Amjadi.
 
 A sagittal-plane leg walks through one gait cycle with an active ankle-foot
-orthosis (AFO). Hip, knee and ankle angles are periodic cubic-spline fits to
+orthosis (AFO). Hip, knee and ankle angles are periodic shape-preserving interpolations to
 typical normative gait curves (Winter, Biomechanics and Motor Control of Human
 Movement). The plot on the right traces the ankle angle and a normalized AFO
 assist torque: plantarflexion assist at push-off and a small dorsiflexion
@@ -12,15 +12,20 @@ Run:  python make_banner.py        -> banner-light.svg, banner-dark.svg
 Needs: numpy, scipy
 """
 import numpy as np
-from scipy.interpolate import CubicSpline
+from scipy.interpolate import PchipInterpolator
 
 N = 72            # frames per gait cycle
 DUR = 2.4         # seconds per cycle (slowed down for readability)
 
 # ------------------------------------------------------------------ gait data
 def periodic(pts):
+    """Shape-preserving periodic interpolation (no overshoot between key points)."""
     x, y = np.array(pts, float).T
-    return CubicSpline(x / 100, y, bc_type="periodic")
+    x, y = x[:-1] / 100, y[:-1]
+    xx = np.r_[x - 1, x, x + 1, 2]
+    yy = np.r_[y, y, y, y[0]]
+    f = PchipInterpolator(xx, yy)
+    return lambda s: f(np.asarray(s) % 1)
 
 HIP = periodic([(0, 30), (10, 27), (30, 10), (50, -10), (60, -6), (70, 14), (85, 32), (100, 30)])
 KNEE = periodic([(0, 3), (15, 18), (40, 4), (60, 38), (73, 62), (87, 28), (100, 3)])

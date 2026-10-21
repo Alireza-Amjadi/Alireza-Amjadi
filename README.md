@@ -43,11 +43,6 @@ Each repository contains the full report in English and the original report in P
 - **Competition mentor**<br>TornoMec 1 and 2, Department of Mechanical Engineering
 - **Organising team**<br>Yalda Night 2024 and Nowruz 2025 celebrations
 
-## Honours
-
-- Ranked **11 of 126** in the mechanical engineering cohort, Sharif University of Technology.
-- Ranked **590 among 147,317** candidates (top 0.4 %) in the Iranian National University Entrance Exam.
-
 ## Tools
 
 **Simulation and modelling:** OpenSim · MATLAB, Simulink, Simscape Multibody · ANSYS Fluent and Mechanical · EES<br>
