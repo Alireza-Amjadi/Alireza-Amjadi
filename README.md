@@ -18,7 +18,7 @@ I am a B.Sc. student in Mechanical Engineering at **Sharif University of Technol
 
 ## Projects
 
-Each repository contains the full report in English and the original report in Persian, together with the code or models where the project has them.
+   Each repository contains the full technical report, together with the code or models where the project has them.
 
 | Project | Course | Tools |
 |:--|:--|:--|
