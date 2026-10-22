@@ -5,48 +5,39 @@
 
 <p align="center">
   <a href="https://alireza-amjadi.github.io"><b>Portfolio</b></a> ·
+  <a href="https://alireza-amjadi.github.io/assets/cv/Alireza_Amjadi_CV.pdf"><b>CV</b></a> ·
   <a href="https://www.linkedin.com/in/alireza-amjadi"><b>LinkedIn</b></a> ·
-  <a href="mailto:amjadialireza354@gmail.com"><b>Email</b></a>
+  <a href="mailto:alireza_amjadi@mech.sharif.edu"><b>Email</b></a>
 </p>
 
-I am a B.Sc. student in Mechanical Engineering at **Sharif University of Technology**, in the **Dynamics, Control and Vibration** track (GPA 18.69/20, ranked 11 of 126). My B.Sc. project is on **active ankle–foot orthoses (AFOs)**: I work on wearable robots and exoskeletons with Prof. Farzam Farahmand and will carry out the musculoskeletal modelling of the project in **OpenSim**. I am looking for **MSc positions from Fall 2027** in wearable robotics, rehabilitation robotics and biomechatronics.
+I am a B.Sc. student in Mechanical Engineering at **Sharif University of Technology**, in the **Dynamics, Control and Vibration** track (GPA 18.69/20, ranked 11th of 126). My B.Sc. project, supervised by Prof. Farzam Farahmand, is on **active ankle–foot orthoses** for stroke survivors with drop foot, and I am responsible for its musculoskeletal modelling in **OpenSim**. I am looking for **MSc positions from Fall 2027** in wearable robotics and biomechatronics.
 
 ## Research
 
-- **B.Sc. project**<br>Active ankle–foot orthoses: modelling and simulation of wearable robots and exoskeletons in OpenSim. Supervisor: Prof. Farzam Farahmand. Current stage: literature review; the modelling of the project is my responsibility.
-- **Interests**<br>wearable robotics · exoskeletons and orthoses · biomechanics · control · mechatronics
+- **B.Sc. project** · Fall 2026 – present<br>Active ankle–foot orthoses for post-stroke drop foot: modelling and simulation of the human–orthosis system in OpenSim. Supervisor: [Prof. Farzam Farahmand](https://scholar.google.com/citations?user=lUslt-MAAAAJ).
+- **Interests**<br>Biomechatronics · wearable robotics and exoskeletons · active orthoses and assistive devices · rehabilitation robotics · musculoskeletal modelling and simulation · gait biomechanics · dynamics and control · physics-informed machine learning
 
 ## Projects
 
-   Each repository contains the full technical report, together with the code or models where the project has them.
+Newest first. Each repository contains the full report in English and the original report in Persian, together with the code or models where the project has them.
 
-| Project | Course | Tools |
+| Project | Course · Term | Tools |
 |:--|:--|:--|
-| [**dc-motor-pi-control**](https://github.com/Alireza-Amjadi/dc-motor-pi-control)<br>Modelling and PI speed control of a separately excited DC motor | Fundamentals of Electrical Engineering II | MATLAB/Simulink |
-| [**pump-mechanism-flywheel**](https://github.com/Alireza-Amjadi/pump-mechanism-flywheel)<br>Multibody simulation of an oscillating-cylinder pump and flywheel design | Dynamics of Machinery | Simscape Multibody |
-| [**pinn-3d-pipe-flow**](https://github.com/Alireza-Amjadi/pinn-3d-pipe-flow)<br>3D physics-informed neural network for laminar pipe flow, checked against the Hagen–Poiseuille solution | Fluid Mechanics I | Python, NumPy |
-| [**airfoil-flow-three-methods**](https://github.com/Alireza-Amjadi/airfoil-flow-three-methods)<br>Flow around NACA airfoils with ANSYS Fluent, PINNs and a source–sink method | Fluid Mechanics II | ANSYS Fluent, PyTorch, MATLAB |
-| [**power-electronics-hybrid-cooling**](https://github.com/Alireza-Amjadi/power-electronics-hybrid-cooling)<br>Transient finite volume solver for a liquid–air cooled heat sink, validated with ANSYS | Heat Transfer I | MATLAB, ANSYS Mechanical |
-| [**gearbox-shafts-bearings-housing**](https://github.com/Alireza-Amjadi/gearbox-shafts-bearings-housing)<br>Shafts, keys, SKF bearings and welded housing of an industrial gearbox | Machine Elements Design II | SolidWorks, FEA |
-| [**gearbox-gears-final-design**](https://github.com/Alireza-Amjadi/gearbox-gears-final-design)<br>Helical and bevel gear design and final layout of the gearbox | Machine Elements Design II | SolidWorks, FEA |
-| [**mine-winch-flexible-transmission**](https://github.com/Alireza-Amjadi/mine-winch-flexible-transmission)<br>Belts, wire rope, chain, drum and chassis of a mine haulage winch | Machine Elements Design II | SolidWorks |
-| [**forklift-jib-crane-design**](https://github.com/Alireza-Amjadi/forklift-jib-crane-design)<br>Bolted and welded joint design of a fork-mounted jib crane | Machine Elements Design I | SolidWorks |
+| [**pump-mechanism-flywheel**](https://github.com/Alireza-Amjadi/pump-mechanism-flywheel)<br>Multibody simulation of an oscillating-cylinder pump and flywheel design | Dynamics of Machinery · Spring 2026 | Simscape Multibody, MATLAB |
+| [**dc-motor-pi-control**](https://github.com/Alireza-Amjadi/dc-motor-pi-control)<br>Modelling and PI speed control of a separately excited DC motor | Fundamentals of Electrical Engineering II · Spring 2026 | MATLAB/Simulink |
+| [**power-electronics-hybrid-cooling**](https://github.com/Alireza-Amjadi/power-electronics-hybrid-cooling)<br>Transient finite-volume solver for a liquid–air cooled heat sink, validated with ANSYS | Heat Transfer I · Spring 2026 | MATLAB, ANSYS Mechanical |
+| [**airfoil-flow-three-methods**](https://github.com/Alireza-Amjadi/airfoil-flow-three-methods)<br>Flow around the NACA 4421 and NACA 16-006 airfoils with ANSYS Fluent, PINNs and a source–sink method | Fluid Mechanics II · Fall 2025 | ANSYS Fluent, PyTorch, MATLAB |
+| [**gearbox-gears-final-design**](https://github.com/Alireza-Amjadi/gearbox-gears-final-design)<br>Helical and bevel gear design and final layout of the gearbox | Machine Elements Design II · Fall 2025 | SolidWorks, FEA |
+| [**mine-winch-flexible-transmission**](https://github.com/Alireza-Amjadi/mine-winch-flexible-transmission)<br>Belts, wire rope, chain, drum and chassis of a mine haulage winch | Machine Elements Design II · Fall 2025 | SolidWorks |
+| [**gearbox-shafts-bearings-housing**](https://github.com/Alireza-Amjadi/gearbox-shafts-bearings-housing)<br>Shafts, keys, SKF bearings and welded housing of an industrial gearbox | Machine Elements Design II · Fall 2025 | SolidWorks, FEA |
+| [**pinn-3d-pipe-flow**](https://github.com/Alireza-Amjadi/pinn-3d-pipe-flow)<br>3D physics-informed neural network for laminar pipe flow, checked against the Hagen–Poiseuille solution | Fluid Mechanics I · Spring 2025 | Python, NumPy, SciPy |
+| [**forklift-jib-crane-design**](https://github.com/Alireza-Amjadi/forklift-jib-crane-design)<br>Bolted and welded joint design of a fork-mounted jib crane | Machine Elements Design I · Spring 2025 | SolidWorks, MATLAB |
 
-## Experience
+## Skills
 
-- **Industrial internship** · Summer 2026<br>CNC punch-machine manufacturer
-- **Grader** · Spring 2026<br>Statics, Dr. Somaye Mohammadi, Department of Mechanical Engineering
-
-## Leadership and service
-
-- **Freshman mentor** · 2025–2026<br>Mentor for the incoming mechanical engineering students of 2025, working with their faculty advisor, Prof. Farzam Farahmand: coordinating meetings, reporting on the students' academic progress and well-being, and guiding them through the challenges of their first year.
-- **Competition mentor**<br>TornoMec 1 and 2, Department of Mechanical Engineering
-- **Organising team**<br>Yalda Night 2024 and Nowruz 2025 celebrations
-
-## Tools
-
-**Simulation and modelling:** OpenSim · MATLAB, Simulink, Simscape Multibody · ANSYS Fluent and Mechanical · EES<br>
-**Design:** SolidWorks · CATIA<br>
-**Programming:** Python (NumPy, SciPy, PyTorch) · MATLAB · LaTeX
+**Biomechanics and dynamics:** OpenSim · Simscape Multibody · Simulink · multibody dynamics · control design<br>
+**Computational mechanics:** ANSYS Fluent and Mechanical · finite-volume methods · verification and validation<br>
+**Programming and machine learning:** Python (NumPy, SciPy, PyTorch) · MATLAB · physics-informed neural networks<br>
+**CAD and mechanical design:** SolidWorks · CATIA · FEA · fatigue design of gears, shafts and bearings
 
 <sub>The banner is generated by [`banner/make_banner.py`](banner/make_banner.py): hip, knee and ankle angles follow typical normative gait curves, and the AFO assist-torque profile is illustrative.</sub>
